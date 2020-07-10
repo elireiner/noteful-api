@@ -3,9 +3,9 @@ const FoldersService = {
         return knex.select('*').from('noteful_folders')
     },
 
-    insertFolders(knex, newArticle) {
+    insertFolder(knex, newFolder) {
         return knex
-            .insert(newArticle)
+            .insert(newFolder)
             .into('noteful_folders')
             .returning('*')
             .then(rows => {
