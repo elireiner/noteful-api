@@ -1,5 +1,14 @@
 # Noteful-api
 
+## Database handling
+
+Create database `createdb -U dunder_mifflin noteful`
+
+Create 'folders' and 'notes' tables `npm run migrate -- 1`
+
+Seed the folders table `psql -U dunder_mifflin -d noteful -f ./seeds/seed.noteful_folders.sql`
+
+Seed the notes table `psql -U dunder_mifflin -d noteful -f ./seeds/seed.noteful_notes.sql`
 
 ## Scripts
 
