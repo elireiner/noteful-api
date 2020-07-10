@@ -4,11 +4,14 @@
 
 Create database `createdb -U dunder_mifflin noteful`
 
-Create 'folders' and 'notes' tables `npm run migrate -- 1`
+Create 'noteful_folders' table `npm run migrate -- 1`
 
-Seed the folders table `psql -U dunder_mifflin -d noteful -f ./seeds/seed.noteful_folders.sql`
+Create 'noteful_notes' table `npm run migrate -- 2`
 
-Seed the notes table `psql -U dunder_mifflin -d noteful -f ./seeds/seed.noteful_notes.sql`
+
+Seed the 'noteful_folders' table `psql -U dunder_mifflin -d noteful -f ./seeds/seed.noteful_folders.sql`
+
+Seed the 'noteful_notes' table `psql -U dunder_mifflin -d noteful -f ./seeds/seed.noteful_notes.sql`
 
 ## Scripts
 
