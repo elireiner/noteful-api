@@ -1,0 +1,10 @@
+insert into noteful_notes (note_name, content, folder) values ('website', 'Goodland', 2);
+insert into noteful_notes (note_name, content, folder) values ('utilisation', 'Lunder', 4);
+insert into noteful_notes (note_name, content, folder) values ('intermediate', 'Warbler', 9);
+insert into noteful_notes (note_name, content, folder) values ('Customer-focused', 'Shasta', 3);
+insert into noteful_notes (note_name, content, folder) values ('hybrid', 'Homewood', 9);
+insert into noteful_notes (note_name, content, folder) values ('Re-contextualized', 'Marquette', 1);
+insert into noteful_notes (note_name, content, folder) values ('portal', 'Fallview', 9);
+insert into noteful_notes (note_name, content, folder) values ('homogeneous', 'Ruskin', 3);
+insert into noteful_notes (note_name, content, folder) values ('Profit-focused', 'Fairfield', 2);
+insert into noteful_notes (note_name, content, folder) values ('benchmark', 'Lunder', 5);
