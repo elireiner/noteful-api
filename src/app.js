@@ -7,6 +7,7 @@ const { NODE_ENV } = require('./config')
 //winston is a logger
 const winston = require('winston');
 const foldersRouter = require('./folders/folders-routers')
+const notesRouter = require('./notes/notes-routers')
 
 const app = express()
 
@@ -54,6 +55,8 @@ app.get('/', (req, res) => {
 })
 
 app.use('/api/folders', foldersRouter)
+
+app.use('/api/notes', notesRouter)
 
 app.use(function errorHandler(error, req, res, next) {
     let response
