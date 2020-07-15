@@ -1,0 +1,10 @@
+insert into noteful_folders (folder_name) values ('Germany');
+insert into noteful_folders (folder_name) values ('Indonesia');
+insert into noteful_folders (folder_name) values ('Tunisia');
+insert into noteful_folders (folder_name) values ('Indonesia');
+insert into noteful_folders (folder_name) values ('France');
+insert into noteful_folders (folder_name) values ('Russia');
+insert into noteful_folders (folder_name) values ('China');
+insert into noteful_folders (folder_name) values ('Canada');
+insert into noteful_folders (folder_name) values ('China');
+insert into noteful_folders (folder_name) values ('Japan');
