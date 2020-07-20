@@ -4,7 +4,7 @@ const morgan = require('morgan')
 const cors = require('cors')
 const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
-//winston is a logger
+//Use winston logger
 const winston = require('winston');
 const foldersRouter = require('./folders/folders-routers')
 const notesRouter = require('./notes/notes-routers')
